@@ -75,5 +75,4 @@ Normalización de texto
 Validaciones de entrada
 Debugging con consola (console.log, console.table)
 
-## 📁 Estructura del proyecto
 
