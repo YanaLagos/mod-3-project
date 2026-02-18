@@ -35,9 +35,9 @@ No se utilizan frameworks ni librerías externas.
 
 mod-3-project/
 │
-
+├── screenshots
 ├── index.html
-
+├── readme.md
 └── app.js
 
 
