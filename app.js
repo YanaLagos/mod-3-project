@@ -1,6 +1,5 @@
 // =======================================
 // 💊 Control de Medicamentos (Modo Consola)
-// Abre F12 -> Console -> escribe: comenzar()
 // =======================================
 
 const estado = {
@@ -32,14 +31,14 @@ function logTitulo(titulo) {
 
 function comenzar() {
   logTitulo("✅ Comandos disponibles");
-  console.log("Iniciar la app: " + "comenzar()");
-  console.log("Agregar un medicamento: " + "agregarMedicamento()");
-  console.log("Ver todos los medicamentos: " + "listarMedicamentos()");
-  console.log("Marcar o desmarcar el medicamento ya tomado: " + "marcarTomado()");
-  console.log("Mostrar los medicamentos pendientes de tomar: " +"pendientes()");
-  console.log("Eliminar un medicamento " + "eliminarMedicamento()");
-  console.log("Reiniciar las tomas del día a 0: " + "reiniciarTomas()");
-  console.log("Visualizar el estado de la app" + "verEstado()");
+  console.log("Iniciar la app: comenzar()");
+  console.log("Agregar un medicamento: agregarMedicamento()");
+  console.log("Ver todos los medicamentos: listarMedicamentos()");
+  console.log("Marcar o desmarcar el medicamento ya tomado: marcarTomado()");
+  console.log("Mostrar los medicamentos pendientes de tomar: pendientes()");
+  console.log("Eliminar un medicamento: eliminarMedicamento()");
+  console.log("Reiniciar las tomas del día a 0: reiniciarTomas()");
+  console.log("Visualizar el estado de la app: verEstado()");
   console.log(" ===============================================");
   console.log("\nTip: primero ejecuta listarMedicamentos() para ver los ID.");
 }
@@ -206,4 +205,3 @@ function verEstado() {
 }
 
 console.log("💊 App cargada. Escribe comenzar() en la consola para comenzar.");
-
