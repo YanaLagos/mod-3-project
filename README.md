@@ -51,7 +51,6 @@ mod-3-project/
 3. Presionar **F12** para abrir la consola.
 4. Escribir:
 
-```js
 comenzar()
 
 Desde ahí se pueden usar los siguientes comandos:
@@ -62,7 +61,6 @@ Desde ahí se pueden usar los siguientes comandos:
 - eliminarMedicamento()
 - reiniciarTomas()
 - verEstado() 
-
 
 ## 🧩 **Conceptos aplicados**
 
